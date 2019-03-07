@@ -1,10 +1,24 @@
-%h1 Merhaba Seval
-%p Hello world!!!
+#banner
+  .banner_content
+    %h1 FileCabinet
+    %p Your life's Work. Organized, Always.
+    %button= link_to "Sign Up", new_user_registration_path
+#testimonial
+  .wrapper
+    %p.quote "I keep all our important documents with FileCabinet."
+    %p.name - President Obama
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Journal
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
 
-%div
-  %ul
-    %p test
-    %p test2
+#bottom_cta
+  .wrapper
+    %h2 Store All Your Notes!
+    %p Be Different, Join the Elite!
+    %button= link_to "Start Here!!!", new_user_registration_path
 
-
-%div
+%footer
+  %p &copy; Prasaria
